@@ -1,0 +1,6 @@
+# Verilog files
+*.vvp
+*.vcd
+
+# VSCode
+.vscode/
