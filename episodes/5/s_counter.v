@@ -64,7 +64,7 @@ module s_counter_tb;
 
     initial begin
         // 指定 vvp 输出结果，不指定的话不会输出，切记
-        $dumpfile("s_counter_.vcd");
+        $dumpfile("s_counter.vcd");
         $dumpvars(0, s_counter_tb);
 
         clk <= 0; res <= 0;
